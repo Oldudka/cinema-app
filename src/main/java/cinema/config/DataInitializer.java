@@ -35,7 +35,7 @@ public class DataInitializer {
 
         User usualUser = new User();
         usualUser.setEmail("usualUser@i.ua");
-        usualUser.setPassword("1234test");
+        usualUser.setPassword("user1234");
         usualUser.setRoles(Set.of(userRole));
         userService.add(usualUser);
     }
